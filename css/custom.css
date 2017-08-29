@@ -1,0 +1,193 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background-2{
+    padding: 40px 0px;
+    background-image: url("../img/back2.jpg");
+}
+
+.background-setao{
+    padding: 40px 0px;
+    background-image: url("../img/bg-sertao.png");
+}
+
+.font-montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-marri{
+    font-family: 'Merriweather', serif;
+}
+
+.font-weight400{
+    font-weight: 400;
+}
+
+.font-weight500{
+    font-weight: 500;
+}
+
+.font-weight600{
+    font-weight: 600;
+}
+
+.font-weight700{
+    font-weight: 700;
+}
+
+.letter-spacing1{
+    letter-spacing: 1px;
+}
+
+.letter-spacing-1{
+    letter-spacing: -1px;
+}
+
+.padding0{
+    padding: 0;
+}
+
+.padding10{
+    padding: 10px;
+}
+
+.padding20{
+    padding: 20px;
+}
+
+.padding30{
+    padding: 30px;
+}
+
+.padding40{
+    padding: 40px;
+}
+
+.padding-top10{
+    padding-top: 10px;
+}
+
+.padding-bottom20{
+    padding-top: 20px;
+}
+
+.padding-10-lateral{
+    padding: 0px 10px;
+}
+
+.margin0{
+    margin: 0;
+}
+
+.margin-top20{
+    margin-top: 20px;
+}
+
+.margin-top40{
+    margin-top: 40px;
+}
+
+.margin-bottom20{
+    margin-bottom: 20px;
+}
+
+.margin-bottom40{
+    margin-bottom: 40px;
+}
+
+.margin-left20{
+    margin-left: 20px;
+}
+
+.margin-top130{
+    margin-top: 130px;
+}
+
+.padding40{
+    padding: 40px;
+}
+
+.font-size-8{
+    font-size: 8px;
+}
+
+.font-size-9{
+    font-size: 9px;
+}
+
+.font-size-10{
+    font-size: 10px;
+}
+
+.font-size-11{
+    font-size: 11px;
+}
+
+.font-size-12{
+    font-size: 12px;
+}
+
+.font-size-13{
+    font-size: 13px;
+}
+
+.font-size-14{
+    font-size: 14px;
+}
+
+.font-size-15{
+    font-size: 15px;
+}
+
+.font-size-16{
+    font-size: 16px;
+}
+
+.font-size-17{
+    font-size: 17px;
+}
+
+.font-size-18{
+    font-size: 18px;
+}
+
+.font-size-19{
+    font-size: 19px;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+.font-size-21{
+    font-size: 21px;
+}
+
+.font-size-22{
+    font-size: 22px;
+}
+
+.font-size-23{
+    font-size: 23px;
+}
+
+.font-size-24{
+    font-size: 24px;
+}
+
+.font-size-25{
+    font-size: 25px;
+}
+
+.font-size-40{
+    font-size: 40px;
+}
+
+.border-jnet{
+    border-bottom: 2px solid #1a237e;
+}
+
+
+
+
