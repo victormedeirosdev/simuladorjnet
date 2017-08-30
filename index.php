@@ -2,6 +2,7 @@
   <html>
     <head>
       <title>JNET - Qualidade em Internet</title>
+      <meta charset="utf-8"/>
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import Google Font-->
@@ -12,11 +13,6 @@
       <link type="text/css" rel="stylesheet" href="css/custom.css">
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        
-<script>
-    
-</script>
-        
         
     </head>
 
@@ -32,7 +28,7 @@
     
     <div class="row">
         <div class="container">
-            <form action="" method="">
+            <form action="resultado.php" method="post" name="form_simulador">
              <ul class="collapsible" data-collapsible="expandable">
                 <li>
                   <div class="collapsible-header active grey lighten-4 indigo-text text-darken-4 font-size-16 font-weight700"><i class="material-icons">supervisor_account</i>QUANTAS PESSOAS USAM INTERNET NA SUA CASA?</div>
@@ -43,42 +39,42 @@
                             <div class="col s4 m4 l2">
                                 <div class="center white padding10 border-jnet indigo-text text-darken-4"><h5 class="font-weight700">1</h5></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="radio" name="g_pessoas" class="filled-in" id="p1" />
+                                  <input type="radio" name="g_pessoas" class="filled-in" value="1" id="p1" />
                                   <label for="p1"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center white padding10 border-jnet indigo-text text-darken-4"><h5 class="font-weight700">2</h5></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="radio" name="g_pessoas" class="filled-in" id="p2" />
+                                  <input type="radio" name="g_pessoas" class="filled-in" value="2" id="p2" />
                                   <label for="p2"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center white padding10 border-jnet indigo-text text-darken-4"><h5 class="font-weight700">3</h5></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="radio" name="g_pessoas" class="filled-in" id="p3" />
+                                  <input type="radio" name="g_pessoas" class="filled-in" value="3" id="p3" />
                                   <label for="p3"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center white padding10 border-jnet indigo-text text-darken-4"><h5 class="font-weight700">4</h5></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="radio" name="g_pessoas" class="filled-in" id="p4" />
+                                  <input type="radio" name="g_pessoas" class="filled-in" value="4" id="p4" />
                                   <label for="p4"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center white padding10 border-jnet indigo-text text-darken-4"><h5 class="font-weight700">5</h5></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="radio" name="g_pessoas" class="filled-in" id="p5" />
+                                  <input type="radio" name="g_pessoas" class="filled-in" value="5" id="p5" />
                                   <label for="p5"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center white padding10 border-jnet indigo-text text-darken-4"><h5 class="font-weight700">+6</h5></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="radio" name="g_pessoas" class="filled-in" id="p6" />
+                                  <input type="radio" name="g_pessoas" class="filled-in" value="6" id="p6" />
                                   <label for="p6"></label>
                                 </div>
                             </div>
@@ -95,42 +91,42 @@
                             <div class="col s4 m4 l2">
                                 <div class="center"><img src="img/equipamentos/celular.png" class="responsive-img"></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="checkbox" name="g_equip" class="filled-in" id="equip1" />
+                                  <input type="checkbox" name="g_equip[]" class="filled-in" value="0.25" id="equip1" />
                                   <label for="equip1" class="font-size-10"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center"><img src="img/equipamentos/tablet.png" class="responsive-img"></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="checkbox" name="g_equip" class="filled-in" id="equip2" />
+                                  <input type="checkbox" name="g_equip[]" class="filled-in" value="0.25" id="equip2" />
                                   <label for="equip2"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center"><img src="img/equipamentos/video-game.png" class="responsive-img"></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="checkbox" name="g_equip" class="filled-in" id="equip3" />
+                                  <input type="checkbox" name="g_equip[]" class="filled-in" value="0.25" id="equip3" />
                                   <label for="equip3"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center"><img src="img/equipamentos/tv.png" class="responsive-img"></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="checkbox" name="g_equip" class="filled-in" id="equip4" />
+                                  <input type="checkbox" name="g_equip[]" class="filled-in" value="1" id="equip4" />
                                   <label for="equip4"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center"><img src="img/equipamentos/notebook.png" class="responsive-img"></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="checkbox" name="g_equip" class="filled-in" id="equip5" />
+                                  <input type="checkbox" name="g_equip[]" class="filled-in" value="1" id="equip5" />
                                   <label for="equip5"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center"><img src="img/equipamentos/pc.png" class="responsive-img"></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="checkbox" name="g_equip" class="filled-in" id="equip6" />
+                                  <input type="checkbox" name="g_equip[]" class="filled-in" value="1" id="equip6" />
                                   <label for="equip6"></label>
                                 </div>
                             </div>
@@ -147,42 +143,42 @@
                             <div class="col s4 m4 l2">
                                 <div class="center"><img src="img/servicos/rede-social.png" class="responsive-img"></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="checkbox" name="g_equip" class="filled-in" id="serv1" />
+                                  <input type="checkbox" name="g_serv[]" class="filled-in" value="0.25" id="serv1" />
                                   <label for="serv1" class="font-size-10"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center"><img src="img/servicos/musica.png" class="responsive-img"></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="checkbox" name="g_equip" class="filled-in" id="serv2" />
+                                  <input type="checkbox" name="g_serv[]" class="filled-in" value="0.25" id="serv2" />
                                   <label for="serv2"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center"><img src="img/servicos/video.png" class="responsive-img"></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="checkbox" name="g_equip" class="filled-in" id="serv3" />
+                                  <input type="checkbox" name="g_serv[]" class="filled-in" value="0.25" id="serv3" />
                                   <label for="serv3"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center"><img src="img/servicos/download-musica.png" class="responsive-img"></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="checkbox" name="g_equip" class="filled-in" id="serv4" />
+                                  <input type="checkbox" name="g_serv[]" class="filled-in" value="1" id="serv4" />
                                   <label for="serv4"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center"><img src="img/servicos/download-video.png" class="responsive-img"></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="checkbox" name="g_equip" class="filled-in" id="serv5" />
+                                  <input type="checkbox" name="g_serv[]" class="filled-in" value="1" id="serv5" />
                                   <label for="serv5"></label>
                                 </div>
                             </div>
                             <div class="col s4 m4 l2">
                                 <div class="center"><img src="img/servicos/jogos.png" class="responsive-img"></div>
                                 <div class="center padding-top10">&nbsp;&nbsp;
-                                  <input type="checkbox" name="g_equip" class="filled-in" id="serv6" />
+                                  <input type="checkbox" name="g_serv[]" class="filled-in" value="1" id="serv6" />
                                   <label for="serv6"></label>
                                 </div>
                             </div>
